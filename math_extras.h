@@ -9,7 +9,7 @@
 
 //nroot: Calculates "n"th of root of "a" using inverse exponentiation with n. (1)
 float nroot_float(float a, double, n) {
-	return pow(a, 1 / n);
+	return powf(a, 1 / n);
 }
 
 double nroot_double(double a, double n) {
